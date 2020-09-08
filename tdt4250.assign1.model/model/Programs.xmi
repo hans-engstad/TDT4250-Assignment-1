@@ -1,72 +1,409 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<assign1:Department xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assign1="http://www.example.org/assign1" xsi:schemaLocation="http://www.example.org/assign1 assign1.ecore">
-  <programs name="Informatikk Bachelor">
+<assign1:Department
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:assign1="http://www.example.org/assign1"
+    xsi:schemaLocation="http://www.example.org/assign1 assign1.ecore">
+  <programs
+      name="Informatikk Bachelor">
     <baseSemesters>
-      <mandatoryCourses href="Courses.xmi#//@courses.1"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.2"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.3"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.4"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.5"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.4"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.5"/>
     </baseSemesters>
-    <baseSemesters index="1">
-      <mandatoryCourses href="Courses.xmi#//@courses.6"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.7"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.8"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.9"/>
+    <baseSemesters
+        index="1">
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.7"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.8"/>
     </baseSemesters>
-    <baseSemesters index="2">
-      <electiveCoursesSlots name="Informatikk Perspektivemner Høst"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.10"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.11"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.12"/>
+    <baseSemesters
+        index="2">
+      <electiveCoursesSlots
+          name="Perspektivemne"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.12"/>
     </baseSemesters>
-    <baseSemesters index="3">
-      <electiveCoursesSlots name="Informatikk Perspektivemner Vår"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.16"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.17"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.18"/>
+    <baseSemesters
+        index="3">
+      <electiveCoursesSlots
+          name="Perspektivemne"/>
     </baseSemesters>
-    <baseSemesters index="4">
-      <electiveCoursesSlots name="Informatikk Gruppe A1"/>
-      <electiveCoursesSlots name="Informatikk Gruppe A2"/>
+    <baseSemesters
+        index="4">
+      <electiveCoursesSlots
+          name="Emne 1 fra Gruppe A"/>
+      <electiveCoursesSlots
+          name="Emne 2 fra Gruppe A"/>
+      <electiveCoursesSlots
+          name="Emne 1 Fritt valg"/>
+      <electiveCoursesSlots
+          name="Emne 2 Fritt valg">
+        <courses
+            href="Courses.xmi#//@courses.0"/>
+        <courses
+            href="Courses.xmi#//@courses.1"/>
+        <courses
+            href="Courses.xmi#//@courses.2"/>
+        <courses
+            href="Courses.xmi#//@courses.3"/>
+        <courses
+            href="Courses.xmi#//@courses.4"/>
+        <courses
+            href="Courses.xmi#//@courses.5"/>
+        <courses
+            href="Courses.xmi#//@courses.6"/>
+        <courses
+            href="Courses.xmi#//@courses.7"/>
+        <courses
+            href="Courses.xmi#//@courses.8"/>
+        <courses
+            href="Courses.xmi#//@courses.9"/>
+        <courses
+            href="Courses.xmi#//@courses.10"/>
+        <courses
+            href="Courses.xmi#//@courses.11"/>
+        <courses
+            href="Courses.xmi#//@courses.12"/>
+        <courses
+            href="Courses.xmi#//@courses.13"/>
+        <courses
+            href="Courses.xmi#//@courses.16"/>
+        <courses
+            href="Courses.xmi#//@courses.17"/>
+        <courses
+            href="Courses.xmi#//@courses.18"/>
+        <courses
+            href="Courses.xmi#//@courses.19"/>
+        <courses
+            href="Courses.xmi#//@courses.21"/>
+        <courses
+            href="Courses.xmi#//@courses.22"/>
+        <courses
+            href="Courses.xmi#//@courses.26"/>
+        <courses
+            href="Courses.xmi#//@courses.28"/>
+        <courses
+            href="Courses.xmi#//@courses.29"/>
+        <courses
+            href="Courses.xmi#//@courses.31"/>
+        <courses
+            href="Courses.xmi#//@courses.34"/>
+        <courses
+            href="Courses.xmi#//@courses.35"/>
+        <courses
+            href="Courses.xmi#//@courses.36"/>
+        <courses
+            href="Courses.xmi#//@courses.37"/>
+        <courses
+            href="Courses.xmi#//@courses.38"/>
+        <courses
+            href="Courses.xmi#//@courses.39"/>
+        <courses
+            href="Courses.xmi#//@courses.40"/>
+        <courses
+            href="Courses.xmi#//@courses.41"/>
+        <courses
+            href="Courses.xmi#//@courses.45"/>
+        <courses
+            href="Courses.xmi#//@courses.46"/>
+        <courses
+            href="Courses.xmi#//@courses.47"/>
+        <courses
+            href="Courses.xmi#//@courses.48"/>
+        <courses
+            href="Courses.xmi#//@courses.49"/>
+        <courses
+            href="Courses.xmi#//@courses.50"/>
+        <courses
+            href="Courses.xmi#//@courses.53"/>
+        <courses
+            href="Courses.xmi#//@courses.54"/>
+        <courses
+            href="Courses.xmi#//@courses.55"/>
+        <courses
+            href="Courses.xmi#//@courses.61"/>
+        <courses
+            href="Courses.xmi#//@courses.65"/>
+        <courses
+            href="Courses.xmi#//@courses.66"/>
+        <courses
+            href="Courses.xmi#//@courses.67"/>
+        <courses
+            href="Courses.xmi#//@courses.68"/>
+        <courses
+            href="Courses.xmi#//@courses.69"/>
+        <courses
+            href="Courses.xmi#//@courses.70"/>
+        <courses
+            href="Courses.xmi#//@courses.71"/>
+        <courses
+            href="Courses.xmi#//@courses.72"/>
+        <courses
+            href="Courses.xmi#//@courses.73"/>
+        <courses
+            href="Courses.xmi#//@courses.74"/>
+        <courses
+            href="Courses.xmi#//@courses.75"/>
+        <courses
+            href="Courses.xmi#//@courses.76"/>
+        <courses
+            href="Courses.xmi#//@courses.98"/>
+        <courses
+            href="Courses.xmi#//@courses.99"/>
+        <courses
+            href="Courses.xmi#//@courses.115"/>
+        <courses
+            href="Courses.xmi#//@courses.116"/>
+        <courses
+            href="Courses.xmi#//@courses.117"/>
+      </electiveCoursesSlots>
     </baseSemesters>
-    <baseSemesters index="5">
-      <electiveCoursesSlots name="Åpne NTNU emner 1"/>
-      <electiveCoursesSlots name="Åpne NTNU emner 2"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.22"/>
+    <baseSemesters
+        index="5">
+      <electiveCoursesSlots
+          name="Emne 1 Gruppe A"/>
+      <electiveCoursesSlots
+          name="Emne 2 Gruppe A">
+        <courses
+            href="Courses.xmi#//@courses.56"/>
+        <courses
+            href="Courses.xmi#//@courses.23"/>
+        <courses
+            href="Courses.xmi#//@courses.57"/>
+        <courses
+            href="Courses.xmi#//@courses.58"/>
+        <courses
+            href="Courses.xmi#//@courses.25"/>
+        <courses
+            href="Courses.xmi#//@courses.59"/>
+      </electiveCoursesSlots>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.22"/>
     </baseSemesters>
   </programs>
-  <programs name="Datateknologi Master 5 år">
+  <programs
+      name="Datateknologi Master 5-årig">
     <baseSemesters>
-      <mandatoryCourses href="Courses.xmi#//@courses.1"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.2"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.3"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.70"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.69"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.1"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.2"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.3"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.66"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.65"/>
     </baseSemesters>
-    <baseSemesters index="1">
-      <mandatoryCourses href="Courses.xmi#//@courses.6"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.71"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.72"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.73"/>
+    <baseSemesters
+        index="1">
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.6"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.67"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.68"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.69"/>
     </baseSemesters>
-    <baseSemesters index="2">
-      <mandatoryCourses href="Courses.xmi#//@courses.11"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.75"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.74"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.10"/>
+    <baseSemesters
+        index="2">
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.70"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.10"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.11"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.71"/>
     </baseSemesters>
-    <baseSemesters index="3">
-      <mandatoryCourses href="Courses.xmi#//@courses.16"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.17"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.18"/>
-      <mandatoryCourses href="Courses.xmi#//@courses.9"/>
+    <baseSemesters
+        index="3">
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.16"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.17"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.18"/>
+      <mandatoryCourses
+          href="Courses.xmi#//@courses.9"/>
     </baseSemesters>
-    <specializations name="Programvaresystemer">
-      <semesters index="4">
-        <mandatoryCourses href="Courses.xmi#//@courses.65"/>
-        <mandatoryCourses href="Courses.xmi#//@courses.21"/>
-        <mandatoryCourses href="Courses.xmi#//@courses.76"/>
+    <specializations
+        name="Programvaresystemer">
+      <semesters
+          index="4">
+        <electiveCoursesSlots
+            name="Valgbart emne">
+          <courses
+              href="Courses.xmi#//@courses.20"/>
+          <courses
+              href="Courses.xmi#//@courses.60"/>
+          <courses
+              href="Courses.xmi#//@courses.62"/>
+          <courses
+              href="Courses.xmi#//@courses.63"/>
+          <courses
+              href="Courses.xmi#//@courses.64"/>
+        </electiveCoursesSlots>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.61"/>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.21"/>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.72"/>
+      </semesters>
+      <semesters
+          index="5">
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.23"/>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.58"/>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.73"/>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.13"/>
+      </semesters>
+    </specializations>
+    <specializations
+        name="Programvareutvikling">
+      <semesters
+          index="6">
+        <electiveCoursesSlots
+            name="Komplementært emne">
+          <courses
+              href="Courses.xmi#//@courses.42"/>
+          <courses
+              href="Courses.xmi#//@courses.43"/>
+          <courses
+              href="Courses.xmi#//@courses.44"/>
+          <courses
+              href="Courses.xmi#//@courses.27"/>
+        </electiveCoursesSlots>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.0"/>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.74"/>
+      </semesters>
+      <semesters
+          index="7">
+        <electiveCoursesSlots
+            name="Valgbart emne">
+          <courses
+              href="Courses.xmi#//@courses.102"/>
+          <courses
+              href="Courses.xmi#//@courses.24"/>
+          <courses
+              href="Courses.xmi#//@courses.100"/>
+          <courses
+              href="Courses.xmi#//@courses.101"/>
+        </electiveCoursesSlots>
+        <electiveCoursesSlots
+            name="Ingeniøremne annet studieprogram">
+          <courses
+              href="Courses.xmi#//@courses.103"/>
+          <courses
+              href="Courses.xmi#//@courses.51"/>
+          <courses
+              href="Courses.xmi#//@courses.104"/>
+          <courses
+              href="Courses.xmi#//@courses.105"/>
+          <courses
+              href="Courses.xmi#//@courses.106"/>
+          <courses
+              href="Courses.xmi#//@courses.107"/>
+          <courses
+              href="Courses.xmi#//@courses.108"/>
+          <courses
+              href="Courses.xmi#//@courses.109"/>
+          <courses
+              href="Courses.xmi#//@courses.110"/>
+          <courses
+              href="Courses.xmi#//@courses.111"/>
+        </electiveCoursesSlots>
+        <electiveCoursesSlots
+            name="Eksperter i Team">
+          <courses
+              href="Courses.xmi#//@courses.112"/>
+          <courses
+              href="Courses.xmi#//@courses.113"/>
+          <courses
+              href="Courses.xmi#//@courses.114"/>
+        </electiveCoursesSlots>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.99"/>
+      </semesters>
+      <semesters
+          index="8">
+        <electiveCoursesSlots
+            name="Komplementært emne">
+          <courses
+              href="Courses.xmi#//@courses.77"/>
+          <courses
+              href="Courses.xmi#//@courses.78"/>
+          <courses
+              href="Courses.xmi#//@courses.79"/>
+          <courses
+              href="Courses.xmi#//@courses.80"/>
+          <courses
+              href="Courses.xmi#//@courses.81"/>
+          <courses
+              href="Courses.xmi#//@courses.82"/>
+          <courses
+              href="Courses.xmi#//@courses.83"/>
+          <courses
+              href="Courses.xmi#//@courses.84"/>
+          <courses
+              href="Courses.xmi#//@courses.85"/>
+          <courses
+              href="Courses.xmi#//@courses.86"/>
+          <courses
+              href="Courses.xmi#//@courses.87"/>
+          <courses
+              href="Courses.xmi#//@courses.88"/>
+          <courses
+              href="Courses.xmi#//@courses.89"/>
+          <courses
+              href="Courses.xmi#//@courses.90"/>
+          <courses
+              href="Courses.xmi#//@courses.91"/>
+          <courses
+              href="Courses.xmi#//@courses.14"/>
+          <courses
+              href="Courses.xmi#//@courses.92"/>
+          <courses
+              href="Courses.xmi#//@courses.15"/>
+          <courses
+              href="Courses.xmi#//@courses.30"/>
+          <courses
+              href="Courses.xmi#//@courses.93"/>
+          <courses
+              href="Courses.xmi#//@courses.94"/>
+          <courses
+              href="Courses.xmi#//@courses.32"/>
+          <courses
+              href="Courses.xmi#//@courses.33"/>
+          <courses
+              href="Courses.xmi#//@courses.52"/>
+          <courses
+              href="Courses.xmi#//@courses.95"/>
+          <courses
+              href="Courses.xmi#//@courses.96"/>
+          <courses
+              href="Courses.xmi#//@courses.97"/>
+        </electiveCoursesSlots>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.115"/>
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.116"/>
+      </semesters>
+      <semesters
+          index="9">
+        <mandatoryCourses
+            href="Courses.xmi#//@courses.117"/>
       </semesters>
     </specializations>
   </programs>

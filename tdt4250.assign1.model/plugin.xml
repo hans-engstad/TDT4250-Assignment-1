@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated assign1 -->
+      <package
+            uri="http://www.example.org/assign1"
+            class="tdt4250.assign1.model.assign1.Assign1Package"
+            genModel="model/assign1.genmodel"/>
+   </extension>
+
+</plugin>

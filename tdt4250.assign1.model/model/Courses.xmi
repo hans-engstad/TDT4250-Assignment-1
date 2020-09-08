@@ -1,477 +1,393 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<assign1:Department
-    xmi:version="2.0"
-    xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:assign1="http://www.example.org/assign1"
-    xsi:schemaLocation="http://www.example.org/assign1 assign1.ecore">
-  <courses code="TDT4250"
-      name="Avansert programvaredesign"
-      credits="7.5"
-      level="Graduate">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+<assign1:Department xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assign1="http://www.example.org/assign1" xsi:schemaLocation="http://www.example.org/assign1 assign1.ecore">
+  <courses code="TDT4250" name="Avansert programvaredesign" credits="7.5" level="Graduate">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.1/@semesters.0"/>
   </courses>
-  <courses code="EXPH0004"
-      name="Examen philosophicum for naturvitenskap og teknologi"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
+  <courses code="EXPH0004" name="Examen philosophicum for naturvitenskap og teknologi" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
   </courses>
-  <courses code="HMS0002"
-      name="HMS-kurs for 1. årsstudenter">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
+  <courses code="HMS0002" name="HMS-kurs for 1. årsstudenter">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
   </courses>
-  <courses code="TDT4110"
-      name="Informasjonsteknologi, grunnkurs"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
+  <courses code="TDT4110" name="Informasjonsteknologi, grunnkurs" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
   </courses>
-  <courses code="MA0001"
-      name="Brukerkurs i matematikk A"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="MA0001" name="Brukerkurs i matematikk A" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.0/@baseSemesters.0"/>
   </courses>
-  <courses code="IT2805"
-      name="Webteknologi"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="IT2805" name="Webteknologi" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.0/@baseSemesters.0"/>
   </courses>
-  <courses code="TDT4100"
-      name="Objektorientert programmering"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.1"/>
+  <courses code="TDT4100" name="Objektorientert programmering" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.1"/>
   </courses>
-  <courses code="IT1501"
-      name="Programmeringslab for Informatikk"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="IT1501" name="Programmeringslab for Informatikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.0/@baseSemesters.1"/>
   </courses>
-  <courses code="MA0301"
-      name="Elementær diskret matematikk"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="MA0301" name="Elementær diskret matematikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.0/@baseSemesters.1"/>
   </courses>
-  <courses code="TTM4100"
-      name="Kommunikasjon - Tjenester og nett"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.3"/>
+  <courses code="TTM4100" name="Kommunikasjon - Tjenester og nett" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.3"/>
   </courses>
-  <courses code="TDT4120"
-      name="Algoritmer og datastrukturer"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.2"/>
+  <courses code="TDT4120" name="Algoritmer og datastrukturer" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.2"/>
   </courses>
-  <courses code="TDT4160"
-      name="Datamaskiner og digitalteknikk"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.2"/>
+  <courses code="TDT4160" name="Datamaskiner og digitalteknikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.2"/>
   </courses>
-  <courses code="IT1901"
-      name="Informatikk prosjektarbeid I"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="IT1901" name="Informatikk prosjektarbeid I" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.0/@baseSemesters.2"/>
   </courses>
-  <courses code="TIØ4258"
-      name="Teknologiledelse"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="TIØ4258" name="Teknologiledelse" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.0/@semesters.1"/>
   </courses>
-  <courses code="TIØ4146"
-      name="Finans for teknisk-naturvitenskapelige studenter"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="TIØ4146" name="Finans for teknisk-naturvitenskapelige studenter" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
   </courses>
-  <courses code="TIØ4295"
-      name="Bedriftsøkonomi"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="TIØ4295" name="Bedriftsøkonomi" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
   </courses>
-  <courses code="TDT4140"
-      name="Programvareutvikling"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.3"/>
+  <courses code="TDT4140" name="Programvareutvikling" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.3"/>
   </courses>
-  <courses code="TDT4145"
-      name="Datamodellering og databasesystemer"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.3"/>
+  <courses code="TDT4145" name="Datamodellering og databasesystemer" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.3"/>
   </courses>
-  <courses code="TDT4180"
-      name="Menneskemaskin-interaksjon"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.3"/>
+  <courses code="TDT4180" name="Menneskemaskin-interaksjon" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.3"/>
   </courses>
-  <courses code="MFEL1010"
-      name="Innføring i medisin for ikke-medisinere"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="MFEL1010" name="Innføring i medisin for ikke-medisinere" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
   </courses>
-  <courses code="IT2810"
-      name="Webutvikling"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="IT2810" name="Webutvikling" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.0/@semesters/@electiveCoursesSlots.0"/>
   </courses>
-  <courses code="TDT4175"
-      name="Informasjonssystemer"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="TDT4175" name="Informasjonssystemer" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.0/@semesters"/>
   </courses>
-  <courses code="IT2901"
-      name="Informatikk prosjektarbeid II"
-      credits="15.0">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
-    <programSemester
-        href="Programs.xmi#//@programs.0/@baseSemesters.5"/>
+  <courses code="IT2901" name="Informatikk prosjektarbeid II" credits="15.0">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.0/@baseSemesters.5"/>
   </courses>
-  <courses code="TDT4186"
-      name="Operativsystemer"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="TDT4186" name="Operativsystemer" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.5/@electiveCoursesSlots.1"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.0/@semesters.1"/>
   </courses>
-  <courses code="TDT4237"
-      name="Programvaresikkerhet"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="TDT4237" name="Programvaresikkerhet" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.0"/>
   </courses>
-  <courses code="TDT4300"
-      name="Datavarehus og datagruvedrift"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="TDT4300" name="Datavarehus og datagruvedrift" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.5/@electiveCoursesSlots.1"/>
   </courses>
-  <courses code="TIØ4216"
-      name="Forretningsjus"
-      credits="7.5">
-    <group href="CourseGroups.xmi#//@courseGroups.7"/>
+  <courses code="TIØ4216" name="Forretningsjus" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
   </courses>
-  <courses code="TTK4220"
-      name="Dynamikk i sosiale systemer"
-      credits="7.5"/>
-  <courses code="BI2041"
-      name="Human evolusjon og atferd"
-      credits="7.5"/>
-  <courses code="NEVR2030"
-      name="Komprimert introduksjon til nevrovitenskap"
-      credits="7.5"/>
-  <courses code="TMM4220"
-      name="Innovasjon ved Design Thinking"
-      credits="7.5"/>
-  <courses code="TMM4225"
-      name="Ingeniørrettet samhandling i distribuerte team: Ledelse og sma..."
-      credits="7.5"/>
-  <courses code="TPD4142"
-      name="Design Thinking"
-      credits="7.5"/>
-  <courses code="TPK4120"
-      name="Industriell sikkerhet og pålitelighet"
-      credits="7.5"/>
-  <courses code="TPK5100"
-      name="Prosjektplanlegging og styring"
-      credits="7.5"/>
-  <courses code="TPK5115"
-      name="Risikostyring i prosjekter"
-      credits="7.5"/>
-  <courses code="TPK5160"
-      name="Risikoanalyse"
-      credits="7.5"/>
-  <courses code="BK1050"
-      name="Introduksjon til grafiske teknikker"
-      credits="7.5"/>
-  <courses code="HLS0001"
-      name="Helsepsykologi og helsefremming"
-      credits="7.5"/>
-  <courses code="PSY2020"
-      name="Psykologiske perspektiver på læring og ferdighetsutvikling"
-      credits="7.5"/>
-  <courses code="SANT0002"
-      name="Psykologisk antropologi"
-      credits="7.5"/>
-  <courses code="SFEL1000"
-      name="Samfunnsfaglige perspektiver på naturressursforvaltning"
-      credits="7.5"/>
-  <courses code="TIØ4120"
-      name="Operasjonsanalyse, grunnkurs"
-      credits="7.5"/>
-  <courses code="TIØ4186"
-      name="Arbeidsmiljø"
-      credits="7.5"/>
-  <courses code="TIØ4201"
-      name="Samfunnssikkerhet og kritisk infrastruktur"
-      credits="7.5"/>
-  <courses code="TIØ4215"
-      name="Kontraktsrett og kontraktsforhandlinger"
-      credits="7.5"/>
-  <courses code="TIØ4230"
-      name="Entreprenørskap og markedsorientert produktutvikling"
-      credits="7.5"/>
-  <courses code="TIØ4300"
-      name="Miljøkunnskap, økosystemtjenester og bærekraft"
-      credits="7.5"/>
-  <courses code="TIØ5200"
-      name="Prosjektorganisasjoner"
-      credits="7.5"/>
-  <courses code="TTM4185"
-      name="Sikkerhet og robusthet i IKT system"
-      credits="7.5"/>
-  <courses code="IT1604"
-      name="Digitalt samfunn"
-      credits="7.5"/>
-  <courses code="TBI4110"
-      name="Økotoksikologi og miljøressurser"
-      credits="7.5"/>
-  <courses code="FY2290"
-      name="Energiressurser"
-      credits="7.5"/>
-  <courses code="TBT4170"
-      name="Bioteknologi"
-      credits="7.5"/>
-  <courses code="MFEL1050"
-      name="Innføring i idrettsfysiologi - Trening for prestasjon, helse og livsk..."
-      credits="7.5"/>
-  <courses code="MOL4010"
-      name="Grunnleggende molekylærbiologi"
-      credits="7.5"/>
-  <courses code="TPK4115"
-      name="Prosjektplanlegging og styring"
-      credits="7.5"/>
-  <courses code="TPK4185"
-      name="Industriell systemdesign"
-      credits="7.5"/>
-  <courses code="BK1000"
-      name="Introduksjon til grafiske teknikker"
-      credits="7.5"/>
-  <courses code="TIØ4250"
-      name="Entreprenørskap - Venture CUP"
-      credits="7.5"/>
-  <courses code="TDT4171"
-      name="Metoder i kunstig intelligens"
-      credits="7.5"/>
-  <courses code="TDT4205"
-      name="Kompilatorteknikk"
-      credits="7.5"/>
-  <courses code="TDT4240"
-      name="Programvarearkitektur"
-      credits="7.5"/>
-  <courses code="TDT4310"
-      name="Intelligent tekstanalyse og språkforståelse"
-      credits="7.5"/>
-  <courses code="TDT4117"
-      name="Informasjonsgjenfinning"
-      credits="7.5"/>
-  <courses code="TDT4136"
-      name="Introduksjon til kunstig intelligens"
-      credits="7.5"/>
-  <courses code="TDT4137"
-      name="Kognitive arkitekturer"
-      credits="7.5"/>
-  <courses code="TDT4165"
-      name="Programmeringsspråk"
-      credits="7.5"/>
-  <courses code="TDT4258"
-      name="Maskinnær programmering"
-      credits="7.5"/>
-  <courses code="TMA4140"
-      name="Diskret matematikk"
-      credits="7.5">
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
+  <courses code="TTK4220" name="Dynamikk i sosiale systemer" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.0/@electiveCoursesSlots.0"/>
   </courses>
-  <courses code="TMA4100"
-      name="Matematikk 1"
-      credits="7.5">
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
+  <courses code="BI2041" name="Human evolusjon og atferd" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
   </courses>
-  <courses code="TDT4112"
-      name="Programmeringslab for datateknologi"
-      credits="7.5">
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.1"/>
+  <courses code="NEVR2030" name="Komprimert introduksjon til nevrovitenskap" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
   </courses>
-  <courses code="TFE4101"
-      name="Krets- og digitalteknikk"
-      credits="7.5">
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.1"/>
+  <courses code="TMM4220" name="Innovasjon ved Design Thinking" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
   </courses>
-  <courses code="TMA4115"
-      name="Matematikk 3"
-      credits="7.5">
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.1"/>
+  <courses code="TMM4225" name="Ingeniørrettet samhandling i distribuerte team: Ledelse og sma..." credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
   </courses>
-  <courses code="TDT4113"
-      name="Datateknologi, programmeringsprosjekt"
-      credits="7.5">
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.2"/>
+  <courses code="TPD4142" name="Design Thinking" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
   </courses>
-  <courses code="TMA4240"
-      name="Statistikk"
-      credits="7.5">
-    <programSemester
-        href="Programs.xmi#//@programs.1/@baseSemesters.2"/>
+  <courses code="TPK4120" name="Industriell sikkerhet og pålitelighet" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
   </courses>
-  <courses code="TMA4135"
-      name="Matematikk 4D"
-      credits="7.5"/>
-  <courses code="TFY4125"
-      name="Fysikk"
-      credits="7.5"/>
-  <courses code="TDT4290"
-      name="Kundestyrt prosjekt"
-      credits="15.0"
-      level="Graduate"/>
-  <courses code="IT3402"
-      name="Design av grafiske brukergrensesnitt"
-      credits="7.5"
-      level="Graduate"/>
-  <courses code="TDT4259"
-      name="Anvendt data science"
-      credits="7.5"
-      level="Graduate"/>
-  <courses code="AAR4250"
-      name="Arkitektur som teknologisk praksis"
-      credits="7.5"/>
-  <courses code="BSOL4610"
-      name="Strategi og endring"
-      credits="7.5"/>
-  <courses code="FI3107"
-      name="Bioteknologi og etikk"
-      credits="7.5"/>
-  <courses code="FI5205"
-      name="Corporate Responsibility and Ethics"
-      credits="7.5"/>
-  <courses code="FI5206"
-      name="Technology for a Good Society"
-      credits="7.5"/>
-  <courses code="GEOG3518"
-      name="Knowledge Management in a Global E..."
-      credits="7.5"/>
-  <courses code="MFEL3010"
-      name="Medisin for realfag- og teknologistudenter"
-      credits="7.5"/>
-  <courses code="POL2019"
-      name="Øst-Asia: Internasjonal politikk"
-      credits="7.5"/>
-  <courses code="SANT3600"
-      name="Kulturforståelse for et internasjonalt arbeidsliv"
-      credits="7.5"/>
-  <courses code="SOS2019"
-      name="Vår sosiale virkelighet"
-      credits="7.5"/>
-  <courses code="SPRÅK3501"
-      name="Vitenskapelig kommunikasjon for ingeniører"
-      credits="7.5"/>
-  <courses code="SØK1151"
-      name="Makroøkonomi for ledere"
-      credits="7.5"/>
-  <courses code="SØK2012"
-      name="Atferdsøkonomi"
-      credits="7.5"/>
-  <courses code="TEP4285"
-      name="Materialstrømanalyse"
-      credits="7.5"/>
-  <courses code="TIØ4120"
-      name="Operasjonsanalyse, grunnkurs"
-      credits="7.5"/>
-  <courses code="TIØ4215"
-      name="Kontraktsrett og kontraktsforhandlinger"
-      credits="7.5"/>
-  <courses code="TMR4137"
-      name="Bærekraftig utnyttelse av marine ressurser"
-      credits="7.5"/>
-  <courses code="TPD4114"
-      name="Visuell formidling"
-      credits="7.5"/>
-  <courses code="TSOL415"
-      name="Human Resource Management"
-      credits="7.5"/>
-  <courses code="TSOL425"
-      name="Teamledelse og teknologi"
-      credits="7.5"/>
-  <courses code="TTM4165"
-      name="Digital økonomi"
-      credits="7.5"/>
-  <courses code="IT3022"
-      name="Deltagende design"
-      credits="7.5"/>
-  <courses code="TDT4242"
-      name="Avansert programvareutvikling"
-      credits="7.5"/>
-  <courses code="TDT4245"
-      name="Samhandlingsteknologi og sosiale medier"
-      credits="7.5"/>
-  <courses code="TDT4257"
-      name="Digital tjenesteinnovasjon"
-      credits="7.5"/>
-  <courses code="TDT4215"
-      name="Web-intelligens"
-      credits="7.5"/>
-  <courses code="MEDT4165"
-      name="Signalbehandling i ultralyd-avbildning"
-      credits="7.5"/>
-  <courses code="TET4120"
-      name="Elektriske motordrifter"
-      credits="7.5"/>
-  <courses code="TFY4220"
-      name="Faste stoffers fysikk"
-      credits="7.5"/>
-  <courses code="TMA4105"
-      name="Matematikk 2"
-      credits="7.5"/>
-  <courses code="TTK4130"
-      name="Modellering og simulering"
-      credits="7.5"/>
-  <courses code="TTK4135"
-      name="Optimalisering og regulering"
-      credits="7.5"/>
-  <courses code="TTK4175"
-      name="Instrumenteringssystemer"
-      credits="7.5"/>
-  <courses code="TTM4115"
-      name="Design av reaktive systemer 1"
-      credits="7.5"/>
-  <courses code="TTM4135"
-      name="Informasjonssikkerhet"
-      credits="7.5"/>
-  <courses code="BEIT4010"
-      name="Eksperter i team - Innovasjonskompetanse - fremtidens kjerne..."
-      credits="7.5"/>
-  <courses code="BEIT4012"
-      name="Eksperter i team - Skaping av fremtidens helsetjeneste"
-      credits="7.5"/>
-  <courses code="BEIT4014"
-      name="Eksperter i team - Grønne bygg"
-      credits="7.5"/>
-  <courses code="TDT4501"
-      name="Datateknologi, fordypningsprosjekt"
-      credits="7.5"
-      level="Graduate"/>
-  <courses code="TDT4506"
-      name="Datateknologi, fordypningsemne"
-      credits="7.5"
-      level="Graduate"/>
-  <courses code="TDT4900"
-      name="Datateknologi, masteroppgave"
-      credits="7.5"
-      level="Graduate"/>
+  <courses code="TPK5115" name="Risikostyring i prosjekter" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TPK5160" name="Risikoanalyse" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="HLS0001" name="Helsepsykologi og helsefremming" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="PSY2020" name="Psykologiske perspektiver på læring og ferdighetsutvikling" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="SANT0002" name="Psykologisk antropologi" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="SFEL1000" name="Samfunnsfaglige perspektiver på naturressursforvaltning" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TIØ4186" name="Arbeidsmiljø" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TIØ4201" name="Samfunnssikkerhet og kritisk infrastruktur" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TIØ4230" name="Entreprenørskap og markedsorientert produktutvikling" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.0/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TIØ4300" name="Miljøkunnskap, økosystemtjenester og bærekraft" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.0/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TIØ5200" name="Prosjektorganisasjoner" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.0/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TTM4185" name="Sikkerhet og robusthet i IKT system" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="IT1604" name="Digitalt samfunn" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TBI4110" name="Økotoksikologi og miljøressurser" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="FY2290" name="Energiressurser" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TBT4170" name="Bioteknologi" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="MFEL1050" name="Innføring i idrettsfysiologi - Trening for prestasjon, helse og livsk..." credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="MOL4010" name="Grunnleggende molekylærbiologi" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TPK4115" name="Prosjektplanlegging og styring" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TPK4185" name="Industriell systemdesign" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="BK1000" name="Introduksjon til grafiske teknikker" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TIØ4250" name="Entreprenørskap - Venture CUP" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TDT4171" name="Metoder i kunstig intelligens" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.5/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TDT4205" name="Kompilatorteknikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.5/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TDT4240" name="Programvarearkitektur" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.5/@electiveCoursesSlots.1"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.0/@semesters.1"/>
+  </courses>
+  <courses code="TDT4310" name="Intelligent tekstanalyse og språkforståelse" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.5/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TDT4117" name="Informasjonsgjenfinning" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.0/@semesters/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TDT4136" name="Introduksjon til kunstig intelligens" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.0/@semesters"/>
+  </courses>
+  <courses code="TDT4137" name="Kognitive arkitekturer" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.0/@semesters/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TDT4165" name="Programmeringsspråk" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.0/@semesters/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TDT4258" name="Maskinnær programmering" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.0/@semesters/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TMA4140" name="Diskret matematikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
+  </courses>
+  <courses code="TMA4100" name="Matematikk 1" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.0"/>
+  </courses>
+  <courses code="TDT4112" name="Programmeringslab for datateknologi" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.1"/>
+  </courses>
+  <courses code="TFE4101" name="Krets- og digitalteknikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.1"/>
+  </courses>
+  <courses code="TMA4115" name="Matematikk 3" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.1"/>
+  </courses>
+  <courses code="TDT4113" name="Datateknologi, programmeringsprosjekt" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.2"/>
+  </courses>
+  <courses code="TMA4240" name="Statistikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@baseSemesters.2"/>
+  </courses>
+  <courses code="TMA4135" name="Matematikk 4D" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.0/@semesters"/>
+  </courses>
+  <courses code="TFY4125" name="Fysikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.0/@semesters.1"/>
+  </courses>
+  <courses code="TDT4290" name="Kundestyrt prosjekt" credits="15.0" level="Graduate">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.1/@semesters.0"/>
+  </courses>
+  <courses code="IT3402" name="Design av grafiske brukergrensesnitt" credits="7.5" level="Graduate">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TDT4259" name="Anvendt data science" credits="7.5" level="Graduate">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="AAR4250" name="Arkitektur som teknologisk praksis" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="BSOL4610" name="Strategi og endring" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="FI3107" name="Bioteknologi og etikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="FI5205" name="Corporate Responsibility and Ethics" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="FI5206" name="Technology for a Good Society" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="GEOG3518" name="Knowledge Management in a Global E..." credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="MFEL3010" name="Medisin for realfag- og teknologistudenter" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="POL2019" name="Øst-Asia: Internasjonal politikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="SANT3600" name="Kulturforståelse for et internasjonalt arbeidsliv" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="SOS2019" name="Vår sosiale virkelighet" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="SPRÅK3501" name="Vitenskapelig kommunikasjon for ingeniører" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="SØK1151" name="Makroøkonomi for ledere" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="SØK2012" name="Atferdsøkonomi" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TEP4285" name="Materialstrømanalyse" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TIØ4120" name="Operasjonsanalyse, grunnkurs" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TIØ4215" name="Kontraktsrett og kontraktsforhandlinger" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TMR4137" name="Bærekraftig utnyttelse av marine ressurser" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TPD4114" name="Visuell formidling" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TSOL415" name="Human Resource Management" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TSOL425" name="Teamledelse og teknologi" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TTM4165" name="Digital økonomi" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="IT3022" name="Deltagende design" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+  </courses>
+  <courses code="TDT4242" name="Avansert programvareutvikling" credits="7.5">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1"/>
+  </courses>
+  <courses code="TDT4245" name="Samhandlingsteknologi og sosiale medier" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TDT4257" name="Digital tjenesteinnovasjon" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="TDT4215" name="Web-intelligens" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.0"/>
+  </courses>
+  <courses code="MEDT4165" name="Signalbehandling i ultralyd-avbildning" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TET4120" name="Elektriske motordrifter" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TFY4220" name="Faste stoffers fysikk" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TMA4105" name="Matematikk 2" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TTK4130" name="Modellering og simulering" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TTK4135" name="Optimalisering og regulering" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TTK4175" name="Instrumenteringssystemer" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TTM4115" name="Design av reaktive systemer 1" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="TTM4135" name="Informasjonssikkerhet" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.1"/>
+  </courses>
+  <courses code="BEIT4010" name="Eksperter i team - Innovasjonskompetanse - fremtidens kjerne..." credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.2"/>
+  </courses>
+  <courses code="BEIT4012" name="Eksperter i team - Skaping av fremtidens helsetjeneste" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.2"/>
+  </courses>
+  <courses code="BEIT4014" name="Eksperter i team - Grønne bygg" credits="7.5">
+    <group href="Programs.xmi#//@programs.1/@specializations.1/@semesters.1/@electiveCoursesSlots.2"/>
+  </courses>
+  <courses code="TDT4501" name="Datateknologi, fordypningsprosjekt" credits="7.5" level="Graduate">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2"/>
+  </courses>
+  <courses code="TDT4506" name="Datateknologi, fordypningsemne" credits="7.5" level="Graduate">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.1/@semesters.2"/>
+  </courses>
+  <courses code="TDT4900" name="Datateknologi, masteroppgave" credits="7.5" level="Graduate">
+    <group href="Programs.xmi#//@programs.0/@baseSemesters.4/@electiveCoursesSlots.3"/>
+    <programSemester href="Programs.xmi#//@programs.1/@specializations.1/@semesters.3"/>
+  </courses>
 </assign1:Department>

@@ -38,6 +38,9 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Program">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="semestersAreContinous noDuplicateSemesters"/>
+    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="baseSemesters" upperBound="-1"
         eType="#//ProgramSemester" containment="true" eOpposite="#//ProgramSemester/program"/>
@@ -57,10 +60,12 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Specialization">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="semesters" eType="#//ProgramSemester"
-        containment="true" eOpposite="#//ProgramSemester/specialization"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="semesters" upperBound="-1"
+        eType="#//ProgramSemester" containment="true" eOpposite="#//ProgramSemester/specialization"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="program" eType="#//Program"
         eOpposite="#//Program/specializations"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requiredCompletedSpecialization"
+        eType="#//Specialization"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="StudyPlan">
     <eStructuralFeatures xsi:type="ecore:EReference" name="semesters" upperBound="-1"

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated assign1 -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="tdt4250.assign1.model.assign1.presentation.Assign1ModelWizardID"
+            name="%_UI_Assign1ModelWizard_label"
+            class="tdt4250.assign1.model.assign1.presentation.Assign1ModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/Assign1ModelFile.gif">
+         <description>%_UI_Assign1ModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated assign1 -->
+      <editor
+            id="tdt4250.assign1.model.assign1.presentation.Assign1EditorID"
+            name="%_UI_Assign1Editor_label"
+            icon="icons/full/obj16/Assign1ModelFile.gif"
+            extensions="assign1"
+            class="tdt4250.assign1.model.assign1.presentation.Assign1Editor"
+            contributorClass="tdt4250.assign1.model.assign1.presentation.Assign1ActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
