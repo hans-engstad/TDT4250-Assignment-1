@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assign1:Department xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assign1="http://www.example.org/assign1" xsi:schemaLocation="http://www.example.org/assign1 assign1.ecore">
+  <programs name="Informatikk Bachelor">
+    <baseSemesters>
+      <mandatoryCourses href="Courses.xmi#//@courses.1"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.2"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.3"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.4"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.5"/>
+    </baseSemesters>
+    <baseSemesters index="1">
+      <mandatoryCourses href="Courses.xmi#//@courses.6"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.7"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.8"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.9"/>
+    </baseSemesters>
+    <baseSemesters index="2">
+      <electiveCoursesSlots name="Informatikk Perspektivemner Høst"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.10"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.11"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.12"/>
+    </baseSemesters>
+    <baseSemesters index="3">
+      <electiveCoursesSlots name="Informatikk Perspektivemner Vår"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.16"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.17"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.18"/>
+    </baseSemesters>
+    <baseSemesters index="4">
+      <electiveCoursesSlots name="Informatikk Gruppe A1"/>
+      <electiveCoursesSlots name="Informatikk Gruppe A2"/>
+    </baseSemesters>
+    <baseSemesters index="5">
+      <electiveCoursesSlots name="Åpne NTNU emner 1"/>
+      <electiveCoursesSlots name="Åpne NTNU emner 2"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.22"/>
+    </baseSemesters>
+  </programs>
+  <programs name="Datateknologi Master 5 år">
+    <baseSemesters>
+      <mandatoryCourses href="Courses.xmi#//@courses.1"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.2"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.3"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.70"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.69"/>
+    </baseSemesters>
+    <baseSemesters index="1">
+      <mandatoryCourses href="Courses.xmi#//@courses.6"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.71"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.72"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.73"/>
+    </baseSemesters>
+    <baseSemesters index="2">
+      <mandatoryCourses href="Courses.xmi#//@courses.11"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.75"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.74"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.10"/>
+    </baseSemesters>
+    <baseSemesters index="3">
+      <mandatoryCourses href="Courses.xmi#//@courses.16"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.17"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.18"/>
+      <mandatoryCourses href="Courses.xmi#//@courses.9"/>
+    </baseSemesters>
+    <specializations name="Programvaresystemer">
+      <semesters index="4">
+        <mandatoryCourses href="Courses.xmi#//@courses.65"/>
+        <mandatoryCourses href="Courses.xmi#//@courses.21"/>
+        <mandatoryCourses href="Courses.xmi#//@courses.76"/>
+      </semesters>
+    </specializations>
+  </programs>
+</assign1:Department>

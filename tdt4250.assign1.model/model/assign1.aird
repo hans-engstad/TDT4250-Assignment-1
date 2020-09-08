@@ -4,6 +4,9 @@
     <semanticResources>assign1.ecore</semanticResources>
     <semanticResources>assign1.genmodel</semanticResources>
     <semanticResources>Department.xmi</semanticResources>
+    <semanticResources>Courses.xmi</semanticResources>
+    <semanticResources>Programs.xmi</semanticResources>
+    <semanticResources>CourseGroups.xmi</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_gY0J8PDxEeqvZe5tQIwxvA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_gZiisfDxEeqvZe5tQIwxvA" name="assign1" repPath="#_gZW8gPDxEeqvZe5tQIwxvA" changeId="6e72e43d-a8e6-438d-9345-cae4b73878ad">
