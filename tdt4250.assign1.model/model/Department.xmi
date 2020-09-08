@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assign1:Department
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:assign1="http://www.example.org/assign1"
+    xsi:schemaLocation="http://www.example.org/assign1 assign1.ecore">
+  <courses code="TDT4110"
+      name="Information Technology, Introduction"
+      credits="7.5"
+      level="Undergraduate"/>
+  <courses code="TDT4250"
+      name="Advanced Software Design"
+      credits="7.5"
+      level="Graduate"/>
+  <courses code="EXPH0004"
+      name="Examen philosophicum for naturvitenskap og teknologi"
+      credits="7.5"
+      level="Undergraduate"/>
+  <courses code="HMS0002"
+      name="HMS-kurs for 1. årsstudenter"
+      level="Undergraduate"/>
+  <courses code="TMA4100"
+      name="Matematikk 1"
+      credits="7.5"
+      level="Undergraduate"/>
+  <courses code="TMA4140"
+      name="Diskret Matematikk"
+      credits="7.5"
+      level="Undergraduate"/>
+  <programs
+      name="5 year Computer Science">
+    <validPaths
+        name="Algoritmer og datamaskiner / Algoritmer og HPC">
+      <segments
+          semesterLength="1">
+        <slots
+            possibleCourses="//@courses.0"/>
+        <slots
+            possibleCourses="//@courses.2"/>
+        <slots
+            possibleCourses="//@courses.3"/>
+        <slots
+            possibleCourses="//@courses.4"/>
+        <slots
+            possibleCourses="//@courses.5"/>
+      </segments>
+      <segments
+          semesterStart="1"
+          semesterLength="1"/>
+    </validPaths>
+  </programs>
+</assign1:Department>
